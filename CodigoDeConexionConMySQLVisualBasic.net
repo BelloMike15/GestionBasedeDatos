@@ -1,0 +1,5 @@
+Imports MySql.Data.MySqlClient
+Module Conexion
+    Public CadCon As String = "Server=localhost; database=taller78; user id=root; password=1234567;"
+    Public Con As New MySqlConnection(CadCon)
+End Module
